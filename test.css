@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+body {
+    background-color: #050432;
+    color: rgb(255, 255, 255);
+
+}
+/* ********************************************************************* */
+.header-content {
+    border-radius: 50px;
+    background-color: #080646;
+    border: #172C51 1px solid;
+    margin: 20px;
+    min-height: 50px;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.ProfileInfo {
+    display: flex;
+    /* display each header property in single line*/
+}
+.photo {
+    width: 50px;
+    height: 100%;
+    border-radius: 50%;
+}
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: #172C51 1px solid;
+}
+.userInfo {
+    align-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+/* --------------------------------------------------------------------- */
+.nav {
+    align-content: center;
+}
+.navigation-link {
+    list-style: none;
+    /* remove list point */
+    display: flex;
+    /* list convert to single line (horizondal to vertical) */
+    /* justify-content: flex-end;  Aligns the items to the right */
+    margin-right: 20px;
+}
+.navigation-link li a {
+    margin-left: 20px;
+    /* Spacing between the items */
+    text-decoration: none;
+    /* remove anchor tag underline */
+}
+/* --------------------------------------------------------------------- */
+.line {
+    width: 100%;
+    border: white 1px solid;
+}
+
+/* ****************************< Body >********************************* */
+.body {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    font-size: small;
+}
+/* ---------------------Body of BreakDown------------------------------- */
+.BodyOfBreakDown {
+    width: 100%;
+    height: auto;
+}
+.Breakdown {
+    height: 20px;
+    text-align: center;
+    align-content: end;
+    background-color: #080646;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* --------------------------< IES Table >------------------------------ */
+.IES-table{
+    display: flex;
+    justify-content: space-between;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+    height: 100%;
+}
+/* -------------------------< Income Table >---------------------------- */
+#Income-Table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+}
+#Income-Table thead {
+    border-top: #00B050 1px solid;
+    border-bottom: #00B050 1px solid;
+}
+#Income-Table thead th {
+    color: #00B050;
+    padding-right: 10px;
+}
+#Income-Table tfoot td {
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    font-weight: bold;
+    text-align: center !important;
+}
+#Income-Table td:nth-child(1) {
+    text-align: left;
+}
+#Income-Table tbody td:hover {
+    padding: 2px;
+}
+/* -------------------------</Income Table >---------------------------- */
+
+/* -------------------------< Expenses Table >-------------------------- */
+#Expenses-Table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+}
+#Expenses-Table thead {
+    border-top: #FF3399 1px solid;
+    border-bottom: #FF3399 1px solid;
+}
+#Expenses-Table thead th {
+    color: #FF3399;
+    padding-right: 10px;
+}
+#Expenses-Table tfoot td {
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    font-weight: bold;
+    text-align: center !important;
+}
+#Expenses-Table td:nth-child(1) {
+    text-align: left;
+}
+#Expenses-Table tbody td:hover {
+    padding: 2px;
+}
+/* -------------------------</Expenses Table >-------------------------- */
+
+/* -------------------------< Saving Table >---------------------------- */
+#Saving-Table {
+    border-collapse: collapse;
+    width: 30%;
+    text-align: center;
+}
+#Saving-Table thead {
+    border-top: #3399FF 1px solid;
+    border-bottom: #3399FF 1px solid;
+}
+#Saving-Table thead th {
+    color: #3399FF;
+    padding-right: 10px;
+}
+#Saving-Table tfoot td {
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+    font-weight: bold;
+    text-align: center !important;
+}
+#Saving-Table td:nth-child(1) {
+    text-align: left;
+}
+#Saving-Table tbody td:hover {
+    padding: 2px;
+}
+/* -------------------------</Saving Table >---------------------------- */
+/* --------------------------</IES Table >------------------------------ */
+/* ------------------------</Body of BreakDown>------------------------- */
+/* ******************************</Body >******************************* */
